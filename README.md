@@ -1,10 +1,10 @@
-#IntelligentPathPlanningUAV Documentation
+# IntelligentPathPlanningUAV Documentation
 
 *First off, fork the repository, if you wish to contribute*
 
 *Else, if you wish to use this as a base to build something new, go ahead!*
 
-##Steps
+## Steps
 
 >1. Install the modules via pip package
 ```
@@ -16,6 +16,8 @@ pip install requirements.txt
 If you dont have it, go ahead to GCP and create one.
 Add the Directions API to the list of services for your created credential
  
+![alt text](https://drive.google.com/file/d/1M9feYIwbWBgPV2SVr0v9KX_88F5WoYnk/view?usp=sharing)
+
 
 >3. Use POSTMAN for testing the api
 
@@ -23,7 +25,7 @@ Add the Directions API to the list of services for your created credential
 http://127.0.0.1:5000/intelligent-path-planning
 ```
 
-##Sample Input
+## Sample Input
 
 ```
 {
@@ -37,7 +39,7 @@ http://127.0.0.1:5000/intelligent-path-planning
     }
 }
 ```
-##Sample Output
+## Sample Output
 ```
 {
     "geocoded_waypoints": [
