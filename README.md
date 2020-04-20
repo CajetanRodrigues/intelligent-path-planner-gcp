@@ -1,4 +1,5 @@
 # IntelligentPathPlanningUAV Documentation
+![path](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/path.PNG)
 
 *First off, fork the repository, if you wish to contribute*
 
@@ -15,15 +16,14 @@ pip install requirements.txt
 
 If you dont have it, go ahead to GCP and create one.
 Add the Directions API to the list of services for your created credential
- 
-![alt text](https://drive.google.com/file/d/1M9feYIwbWBgPV2SVr0v9KX_88F5WoYnk/view?usp=sharing)
-
+![gcp](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/gcp.PNG)
 
 >3. Use POSTMAN for testing the api
 
 ```
 http://127.0.0.1:5000/intelligent-path-planning
 ```
+![postman](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman.PNG)
 
 ## Sample Input
 
