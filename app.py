@@ -21,7 +21,8 @@ def home():
     desLon = data['des']['lon']
     
     # Fetching the secret key stored in AWS Secrets Manager. You can replace your key here, but it has security flaws
-    secret = get_secret()    
+    secret = get_secret()   
+    print(secret) 
     # Configuring the google maps directions API
     URL = "https://maps.googleapis.com/maps/api/directions/json?origin="+str(srcLat)+","+str(srcLon)+"&destination="+str(desLat)+","+str(desLon)+"&key=" + secret
     
