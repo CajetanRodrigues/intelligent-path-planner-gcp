@@ -69,4 +69,4 @@ def get_secret():
             decoded_binary_secret = base64.b64decode(get_secret_value_response['SecretBinary'])
     return secret
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0',port=80,debug=True,threaded=True)
