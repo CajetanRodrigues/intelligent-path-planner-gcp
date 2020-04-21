@@ -48,8 +48,9 @@ def get_secret():
 
     try:
         get_secret_value_response = client.get_secret_value(
-            SecretId=secret_name
+            SecretId='GoogleMapsAPIkey'
         )
+        print(get_secret_value_response)
     except ClientError as e:
         if e.response['Error']['Code'] == 'DecryptionFailureException':
             raise e
@@ -69,4 +70,4 @@ def get_secret():
             decoded_binary_secret = base64.b64decode(get_secret_value_response['SecretBinary'])
     return secret
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=80,debug=True,threaded=True)
+    app.run(host='127.0.0.1',port=80,debug=True,threaded=True)
