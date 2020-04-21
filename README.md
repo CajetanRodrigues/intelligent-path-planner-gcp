@@ -12,7 +12,10 @@
 pip install requirements.txt
 ```
 
->2. Add your Google API key in the URL string 
+>2. Add your Google API key in the 'secret' variable defined.
+    As we had security seriously, I have stored the api key securely in the aws secrets manager.
+    I retrieve it from there. For your  case, just replace the get_secret() function with your 
+    actual key for testing
 
 If you dont have it, go ahead to GCP and create one.
 Add the Directions API to the list of services for your created credential
