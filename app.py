@@ -25,12 +25,10 @@ def home():
     # Configuring the google maps directions API
     URL = "https://maps.googleapis.com/maps/api/directions/json?origin="+str(srcLat)+","+str(srcLon)+"&destination="+str(desLat)+","+str(desLon)+"&key=" + secret
     
-  
     # Initiating a get request using the inbuilt python requests library
     r = requests.get(url = URL) 
-    data = r.json() 
-    print(data)
-    return json.dumps(get_secret())
+    data = r.json()
+    return json.dumps(data)
 
 # Fetched encrypted key stored in AWS Secrets Manager.
 def get_secret():
@@ -65,7 +63,6 @@ def get_secret():
     else:
         if 'SecretString' in get_secret_value_response:
             secret = get_secret_value_response['SecretString']
-            return secret
         else:
             decoded_binary_secret = base64.b64decode(get_secret_value_response['SecretBinary'])
     return secret
