@@ -231,8 +231,16 @@ http://127.0.0.1:5000/intelligent-path-planning
 https://explore.postman.com/templates/7542/intelligentpathplanning
 ```
 
+![postman_template](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman_template.PNG)
+
+
 ## View the published Documentation
 
 ```
-https://documenter.getpostman.com/view/6651486/Szf83UEz?version=latest#d9b039e0-c325-497c-bed0-2528ce966507
+[https://documenter.getpostman.com/view/6651486/Szf83UEz?version=latest#d9b039e0-c325-497c-bed0-2528ce966507](https://documenter.getpostman.com/view/6651486/Szf83UEz?version=latest#d9b039e0-c325-497c-bed0-2528ce966507)
 ```
+
+![postman_intelligent_path_planning](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman_intelligent_path_planning.PNG)
+
+![postman_generate_waypoints](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman_generate_waypoints.PNG)
+
