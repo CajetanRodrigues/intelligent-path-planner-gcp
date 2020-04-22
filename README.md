@@ -209,3 +209,18 @@ http://127.0.0.1:5000/intelligent-path-planning
     "status": "OK"
 }
 ```
+
+## AWS EC2 Linux Instance
+
+![aws](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/aws.PNG)
+
+
+## AWS Secrets Manager
+
+![aws_secret_key](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/aws_secret_key.PNG)
+
+
+## Requesting the flask app RESTful API hosted on AWS EC2 instance which is hooked to the AWS Secrets Manager
+
+![postman_aws](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman.PNG)
+
