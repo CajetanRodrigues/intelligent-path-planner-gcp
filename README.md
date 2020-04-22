@@ -224,3 +224,15 @@ http://127.0.0.1:5000/intelligent-path-planning
 
 ![postman_aws](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/postman.PNG)
 
+## Import APIs in your POSTMAN application
+*Use the link below to import the apis in your postman app*
+
+```
+https://explore.postman.com/templates/7542/intelligentpathplanning
+```
+
+## View the published Documentation
+
+```
+https://documenter.getpostman.com/view/6651486/Szf83UEz?version=latest#d9b039e0-c325-497c-bed0-2528ce966507
+```
