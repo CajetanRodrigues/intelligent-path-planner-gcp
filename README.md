@@ -1,6 +1,6 @@
 # IntelligentPathPlanningUAV Documentation
 ![path](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/path.PNG)
-![drone](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/drone.PNG)
+![drone](https://github.com/CajetanRodrigues/IntelligentPathPlanningUAV/blob/master/ReferenceImages/drone.jpg)
 
 *First off, fork the repository, if you wish to contribute*
 
